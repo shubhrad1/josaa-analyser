@@ -1,0 +1,33 @@
+.ribbon
+{
+    position: fixed;
+    bottom: 0;
+    width:100vw;
+    height:70px;
+    background-color: beige;
+    display: flex;
+}
+.heart
+{
+    color:red;
+}
+.copyright
+{
+    position: relative;
+    text-align: left;
+    width:50%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.developer
+{
+    position:relative;
+    text-align: right;
+    width:50%;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.social i
+{
+    margin-right:15px;
+}

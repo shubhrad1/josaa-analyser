@@ -1,0 +1,14 @@
+.wrapper
+{
+
+    color: aqua;
+    text-align: left;
+}
+.header
+{
+    position: relative;
+    left:20px;
+    top:20px;
+
+    font-size: 80px;
+}
