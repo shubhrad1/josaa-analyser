@@ -19,9 +19,14 @@ from django.views.generic import TemplateView
 from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from analyser.views import get_data, enumerateData, getBranch, getInstitute
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/analyser',get_data,name='get_data'),
+    path('api/enum',enumerateData,name='enumerateData'),
+    path('api/institutes/',getInstitute,name='getInstitutes'),
+    path('api/branches/<int:institute_id>/',getBranch,name='getBranch'),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 urlpatterns += staticfiles_urlpatterns()
 urlpatterns += [re_path(r'^.*', TemplateView.as_view(template_name='index.html'))]

@@ -1,0 +1,37 @@
+.wrapper
+{
+    padding-top: 50px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    scroll-behavior:smooth;
+}
+table
+{
+    color: rgb(182, 228, 255);
+    display: none;
+    border-color: rgb(182, 228, 255);
+
+}
+td
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+thead
+{
+    text-decoration: solid;
+}
+select
+{
+    width:400px;
+    height:30px;
+}
+label
+{
+    color:aqua;
+}
+form{
+    margin:0 auto;
+    display:block;
+    width:40vw;
+}

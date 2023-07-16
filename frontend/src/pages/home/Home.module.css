@@ -3,12 +3,45 @@
 
     color: aqua;
     text-align: left;
+    padding-left: 20px;
 }
 .header
 {
     position: relative;
-    left:20px;
     top:20px;
 
     font-size: 80px;
+}
+
+.Typewrite
+{
+    font-size: large;
+}
+.getStarted
+{
+    width: 150px;
+    height:40px;
+    margin-top: 40px;
+    background-color: rgb(63, 63, 63);
+    border: 2px solid;
+    border-color: aqua;
+    border-radius: 22px;
+    color:inherit;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.3s;
+}
+a
+{
+    text-decoration: none !important;
+    color:inherit;
+}
+a:hover
+{
+    text-decoration: none !important;
+    color:inherit;
+}
+.getStarted:hover {
+    background-color: aqua;
+    color: rgb(63, 63, 63);
 }

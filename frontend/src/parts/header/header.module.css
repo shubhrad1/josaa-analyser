@@ -1,0 +1,26 @@
+.ribbon
+{
+    position: relative;
+    text-align: left;
+    height:10vh;
+    width:100vw;
+    background-color: rgb(37, 37, 37);
+    padding-left: 10px;
+}
+
+.title
+{
+    position: relative;
+    left:10px;
+    color:white;
+    font-size: 30px;
+    top:15px;
+}
+
+.icon
+{
+    position: relative;
+    width:50px;
+    height: 50px;
+    top:5px;
+}
